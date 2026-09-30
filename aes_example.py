@@ -1,4 +1,3 @@
-# Versión interactiva de AES_example.py: pide el mensaje al usuario
 # Requiere: pip install pycryptodome
 
 from Crypto.Cipher import AES
@@ -39,7 +38,7 @@ def decrypt_message(encoded_encrypted_msg, encoded_secret_key, padding_character
 	return unpadded_private_msg.decode("utf-8")
 
 
-####### BEGIN HERE #######
+####### BEGIN HERE :) #######
 
 padding_character = b"{"
 
